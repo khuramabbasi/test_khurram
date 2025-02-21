@@ -1,0 +1,30 @@
+project:
+  name: My Project
+  version: 1.0
+  description: "A simple project starter template with HTML, CSS (Roboto font), and JavaScript."
+  files:
+    html: "index.html"
+    css: "style.css"
+    javascript: "script.js"
+  dependencies:
+    - html
+    - css
+    - javascript
+  settings:
+    theme: default
+    font: "Roboto"
+    responsive: true
+  styles:
+    font_import: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    global_styles:
+      box_sizing: "border-box"
+      body:
+        font_family: "Roboto, sans-serif"
+        display: "flex"
+        flex_direction: "column"
+        align_items: "center"
+        justify_content: "center"
+        height: "100vh"
+        overflow: "hidden"
+        margin: 0
+  active: true
