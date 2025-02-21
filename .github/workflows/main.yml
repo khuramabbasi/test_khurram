@@ -1,0 +1,12 @@
+name: My Simple Project
+version: 1.0
+author: Alice
+is_active: true
+
+settings:
+  theme: light
+  language: English
+
+dependencies:
+  - html
+  - css
